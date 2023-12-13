@@ -5,7 +5,7 @@ Get started with the Spring Boot application, a hello world example.
 ```bash
 $ git clone [https://github.com/mkyong/spring-boot.git](https://github.com/Mahesh333-C/sample_java.git)
 
-$ cd spring-boot
+$ cd sample_java
 
 $ docker build -t sample_java .
 
