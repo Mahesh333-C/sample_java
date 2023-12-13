@@ -1,20 +1,17 @@
 # Spring Boot Hello World Example
 Get started with the Spring Boot application, a hello world example.
 
-https://mkyong.com/spring-boot/spring-boot-hello-world-example/
-
 ## 1. How to start
 ```bash
-$ git clone [https://github.com/mkyong/spring-boot.git](https://github.com/mkyong/spring-boot.git)
+$ git clone [https://github.com/mkyong/spring-boot.git](https://github.com/Mahesh333-C/sample_java.git)
 
-$ cd spring-boot-hello-world
+$ cd spring-boot
 
-# Tomcat started at 8080
-$ mvn spring-boot:run
+$ docker build -t sample_java .
+
+$ docker run -d -p 8000:8000 sample_java
 
 # test
-curl localhost:8080
+access app on port: 8000
 
 ```
-
-
